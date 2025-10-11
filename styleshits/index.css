@@ -1,0 +1,29 @@
+/* Font */
+
+body {
+  font-family: "Epilogue", sans-serif;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* /Font */
