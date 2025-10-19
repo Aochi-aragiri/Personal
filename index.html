@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Personal</title>
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -17,18 +17,760 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <!-- /Fonts -->
   </head>
   <body>
     <!-- Nav -->
-
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="nav__logo">
+          <img src="images/logo.svg" alt="Personal Logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Blog</a>
+          </li>
+        </ul>
+        <div class="nav__actions">
+          <button type="button" class="btn__darkblue">Contact</button>
+        </div>
+      </nav>
+    </div>
     <!-- /Nav -->
 
     <!-- Hero -->
-
+    <div class="container">
+      <section class="hero">
+        <div class="hero__main">
+          <div class="hero-info">
+            <h5 class="h5__text-orange">Gabriel Pires</h5>
+            <h1 class="hero-title">The Simple, Clean Design</h1>
+            <div class="hero__range">
+              <p class="common__text-grey">
+                Agency provides a full service range including technical skills,
+                design, business understanding.
+              </p>
+              <button type="button" class="btn__orange hero-btn">
+                See my work
+              </button>
+            </div>
+          </div>
+          <img
+            src="images/hero-img.svg"
+            alt="Desinger`s photo"
+            class="hero__img"
+          />
+        </div>
+      </section>
+    </div>
     <!-- /Hero -->
+
+    <!-- Service -->
+    <div class="background__color-lightpink">
+      <div class="container">
+        <section class="service">
+          <h5 class="h5__text-orange">Service</h5>
+          <h2 class="h2__text-brown h2__text-brown-center">
+            How I Can Help You With
+          </h2>
+          <section class="service__types">
+            <div class="service__name">
+              <div class="service__title">
+                <div class="service__title-icon">
+                  <img
+                    src="images/service-icon__design.svg"
+                    alt="Design icon"
+                    class="service__icon-img"
+                  />
+                </div>
+                <h4 class="h4__text-brown">Design</h4>
+              </div>
+              <p class="common__text-brown">
+                Agency is a business you hire to outsource your digital
+                marketing efforts, instead of handling in-house.
+              </p>
+              <div class="service__more">
+                <div class="service__more-icon">
+                  <img
+                    src="images/service-icon__learn_more.svg"
+                    alt="Learn more icon"
+                    class="more__icon-img"
+                  />
+                </div>
+                <a href="#" class="service__more-text">Learn More</a>
+              </div>
+            </div>
+            <div class="service__name">
+              <div class="service__title">
+                <div class="service__title-icon">
+                  <img
+                    src="images/service-icon__development.svg"
+                    alt="Development icon"
+                    class="service__icon-img"
+                  />
+                </div>
+                <h4 class="h4__text-brown">Development</h4>
+              </div>
+              <p class="common__text-brown">
+                Hire to outsource your digital marketing efforts, instead of
+                handling in-house can provide your business.
+              </p>
+              <div class="service__more">
+                <div class="service__more-icon">
+                  <img
+                    src="images/service-icon__learn_more.svg"
+                    alt="Learn more icon"
+                    class="more__icon-img"
+                  />
+                </div>
+                <a href="#" class="service__more-text">Learn More</a>
+              </div>
+            </div>
+          </section>
+          <p class="common__text-brown service__more-padding">
+            Want more service?
+            <a href="#" class="service__more-text">Explore Now</a>
+          </p>
+        </section>
+      </div>
+    </div>
+    <!-- /Service -->
+
+    <!-- Portfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="portfolio__main">
+          <h5 class="h5__text-orange">Portfolio</h5>
+          <div class="portfolio__main-row">
+            <h2 class="h2__text-white">Latest Work</h2>
+            <button type="button" class="btn__darkblue">Explore more</button>
+          </div>
+        </div>
+      </div>
+      <section class="portfolio__info">
+        <div class="portfolio__item">
+          <img
+            src="images/latest_work-img__sofa.svg"
+            alt="Sofa shape"
+            class="portfolio__item-image"
+          />
+          <div class="portfolio__item-text">
+            <p class="portfolio__item-text-type">Design</p>
+            <h3 class="portfolio__item-text-case">Sofa</h3>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img
+            src="images/latest_work-img__keyboard.svg"
+            alt="Stage"
+            class="portfolio__item-image"
+          />
+          <div class="portfolio__item-text">
+            <div class="portfolio__item-text-type">Branding</div>
+            <h3 class="portfolio__item-text-case">KeyBoard</h3>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img
+            src="images/latest_work-img__work-media.svg"
+            alt="Cylindrical illustration"
+            class="portfolio__item-image portfolio__item-image-last"
+          />
+          <div class="portfolio__item-text">
+            <div class="portfolio__item-text-type">Illustration</div>
+            <h3 class="portfolio__item-text-case">Work Media</h3>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Profile -->
+    <div class="background__color-lightpink">
+      <div class="container">
+        <section class="profile">
+          <div class="profile__main">
+            <img
+              src="images/profile__img.svg"
+              alt="mobile design"
+              class="profile__image"
+            />
+            <div class="profile__info">
+              <h5 class="h5__text-orange">Gabriel Pires</h5>
+              <h2 class="h2__text-brown">Professional Web Designer</h2>
+              <p class="text-big__brown">Provides a full service range</p>
+              <p class="common__text-brown">
+                Ability to put themselves in the merchant's shoes. It is meant
+                to partner on the long run, and work as an extension of the
+                merchant's team.
+              </p>
+              <button type="button" class="btn__white">About me</button>
+            </div>
+          </div>
+          <div class="profile__stats">
+            <div class="profile__box">
+              <div class="profile__box-img">
+                <img
+                  src="images/profile__calendar.svg"
+                  alt="calendar"
+                  class="profile__box-image"
+                />
+              </div>
+              <div class="profile__box-text">
+                <h3 class="profile__box-text-h3">42%</h3>
+                <p class="text-big__brown">Years of experience</p>
+              </div>
+            </div>
+            <div class="profile__box">
+              <div class="profile__box-img">
+                <img
+                  src="images/profile__case.svg"
+                  alt="case"
+                  class="profile__box-image"
+                />
+              </div>
+              <div class="profile__box-text">
+                <h3 class="profile__box-text-h3">73+</h3>
+                <p class="text-big__brown">Projects done</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- /Profile -->
+    <!-- Features -->
+    <div class="container">
+      <div class="features">
+        <div class="features__info">
+          <div class="features__info-title">
+            <div class="h5__text-orange">Features</div>
+            <div class="h2__text-white">Give Your Site A New Look</div>
+          </div>
+          <div class="features__info-text">
+            Service range including technical skills, design, business
+            understanding.
+          </div>
+          <div class="features__item">
+            <div class="features__check">
+              <img
+                src="images/check.svg"
+                alt="check"
+                class="features__img-check"
+              />
+
+              <div class="common__text-grey">
+                Range including technical skills
+              </div>
+            </div>
+            <div class="features__check">
+              <img
+                src="images/check.svg"
+                alt="check"
+                class="features__img-check"
+              />
+
+              <div class="common__text-grey">Business understanding</div>
+            </div>
+            <div class="features__check">
+              <img
+                src="images/check.svg"
+                alt="check"
+                class="features__img-check"
+              />
+              <div class="common__text-grey">Partner on the long run</div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="images/features-img.svg"
+          alt="Features image"
+          class="img__features"
+        />
+      </div>
+    </div>
+    <!-- /Features -->
+    <!-- Get started -->
+    <div class="container">
+      <div class="get-started__gift">
+        <div class="get-started__img-gift">
+          <img
+            src="images/get__started-star.svg"
+            alt="gift icon background"
+            class="get__started-gift-background"
+          />
+          <img
+            src="images/get started-icon__present.svg"
+            alt="gift icon"
+            class="get__started-gift"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="background__color-lightpeach">
+      <div class="container">
+        <div class="get-started">
+          <div class="get-started__main">
+            <div class="get-started__main-text">
+              <div class="h5__text-orange">Get Started</div>
+              <div class="h4__text-brown">I Help Companies Move Faster</div>
+            </div>
+            <button type="button" class="btn__orange">Contact me</button>
+          </div>
+          <div class="get-started__info">
+            <div class="get-started__text common__text-brown">
+              Put themselves in the merchant's shoes. It is meant to partner on
+              the long run.
+            </div>
+            <img
+              src="images/get started -img__card.png"
+              alt="Card"
+              class="get-started__img-card"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Get started -->
+    <!-- Testimonials -->
+    <div class="background__color-lightpink">
+      <div class="container">
+        <div class="h5__text-orange testimonials__h2">Testimonials</div>
+        <div class="testimonials__main">
+          <div class="h2__text-brown h2__text-brown-center">
+            What My Clients Saying
+          </div>
+          <div class="testimonials__review">
+            <section class="testimonials__comment">
+              <div class="testimonials-stars">
+                <img src="images/testimonials-img__5_stars.svg" alt="5 Stars" />
+              </div>
+              <div class="common__text-brown testimonials__main-text">
+                Outsource your digital marketing efforts, instead of handling
+                in-house. They can provide your business with a variety.
+              </div>
+              <div class="testimonials-profile">
+                <img
+                  src="images/testimonials-img__1Graham_Griffiths.svg"
+                  alt="profile 1 image"
+                  class="testimonials-img"
+                />
+                <div class="testimonials__profile-text">
+                  <div class="h4__text-brown">Graham Griffiths</div>
+                  <div class="common__text-brown">Twitor</div>
+                </div>
+              </div>
+            </section>
+            <section class="testimonials__comment testimonials__comment-main">
+              <div class="testimonials-stars">
+                <img src="images/testimonials-img__5_stars.svg" alt="5 Stars" />
+              </div>
+              <div class="common__text-brown testimonials__main-text">
+                A digital agency is a business you hire to outsource your
+                digital marketing efforts, instead of handling in-house. They
+                can provide your business with a variety of digital solutions.
+              </div>
+              <div class="testimonials-profile">
+                <img
+                  src="images/testimonials-img__2Alan Martí.svg"
+                  alt="profile 2 image"
+                  class="testimonials-img"
+                />
+                <div class="testimonials__profile-text">
+                  <div class="h4__text-brown">Alan Martí</div>
+                  <div class="common__text-brown">Meta Inc.</div>
+                </div>
+              </div>
+            </section>
+            <section class="testimonials__comment">
+              <div class="testimonials-stars">
+                <img src="images/testimonials-img__5_stars.svg" alt="5 Stars" />
+              </div>
+              <div class="common__text-brown testimonials__main-text">
+                Provide your business with a variety of digital solutions to
+                promote your product or service online.
+              </div>
+              <div class="testimonials-profile">
+                <img
+                  src="images/testimonials-img__3Richardo Kann.svg"
+                  alt="profile 3 image"
+                  class="testimonials-img"
+                />
+                <div class="testimonials__profile-text">
+                  <div class="h4__text-brown">Richardo Kann</div>
+                  <div class="common__text-brown">Photogram</div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <button type="button" class="btn__white">See All</button>
+        </div>
+      </div>
+    </div>
+    <!-- /Testimonials -->
+    <!-- FAQ -->
+    <div class="container">
+      <div class="FAQ__section">
+        <section class="FAQ__main">
+          <div class="h5__text-orange FAQ__common-h2">FAQ</div>
+          <div class="h3__text-white">Frequently Asked Questions</div>
+          <div class="common__text-grey FAQ__common-text">
+            A digital agency is a business you hire to outsource your digital
+            marketing efforts, instead of handling in-house.
+          </div>
+          <div class="common__text-white">Contact me</div>
+        </section>
+        <div class="faq__accordion">
+          <details open>
+            <summary>A digital agency is a business</summary>
+            <p>
+              Digital marketing efforts, instead of handling in-house. They can
+              provide your business with a variety of digital solutions to
+              promote your product or service online and help you hit your
+              marketing goals and grow your business.
+            </p>
+          </details>
+          <details>
+            <summary>Hire to outsource your digital</summary>
+            <p>
+              Outsource your digital marketing efforts, instead of handling
+              in-house. They can provide your business with a variety of
+              solutions.
+            </p>
+          </details>
+          <details>
+            <summary>Marketing efforts</summary>
+            <p>
+              Promote your product or service online through various digital
+              strategies.
+            </p>
+          </details>
+          <details>
+            <summary>Can provide your business</summary>
+            <p>
+              Help you reach your business goals and grow your online presence.
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="FAQ__socials">
+        <img
+          src="images/FAQ-logo__Digitalside.svg"
+          alt="Digitalside"
+          class="FAQ__social"
+        />
+        <img
+          src="images/FAQ-logo_Vortex.svg"
+          alt="Vortex"
+          class="FAQ__social"
+        />
+        <img
+          src="images/FAQ-logo__Travel_explorer.svg"
+          alt="Travel_explorer"
+          class="FAQ__social"
+        />
+        <img
+          src="images/FAQ-logo__FUZION.svg"
+          alt="FUZION"
+          class="FAQ__social"
+        />
+        <img
+          src="images/FAQ-logo__MediaFury.svg"
+          alt="MediaFury"
+          class="FAQ__social"
+        />
+      </div>
+    </div>
+    <!-- /FAQ -->
+    <!-- Our blog -->
+    <div class="background__color-lightpink">
+      <div class="container">
+        <section class="our-blog__main">
+          <div class="our-blog__left">
+            <div class="h5__text-orange">Our Blog</div>
+            <div class="h2__text-brown">Latest Blog Articles</div>
+            <img
+              src="images/article-img__stories.svg"
+              alt="Pumpkins"
+              class="our-blog__img-left"
+            />
+            <div class="text-big__brown">Stories</div>
+            <div class="h3__text-brown">
+              Agency is a business you hire to outsource
+            </div>
+            <div class="common__text-brown">5 Nov, 2021</div>
+          </div>
+          <div class="our-blog__right">
+            <button class="btn__white">Discover All</button>
+            <div class="our-blog__right-nobtn">
+              <img
+                src="images\article-img__design.svg"
+                alt="People do project"
+                class="our-blog__img"
+              />
+              <div class="text-big__brown">Design</div>
+              <div class="h4__text-brown">
+                Outsource your digital marketing efforts
+              </div>
+              <div class="common__text-brown">29 Oct, 2021</div>
+              <img
+                src="images\article-img__marketing.svg"
+                alt="People discuss"
+                class="our-blog__img"
+              />
+              <div class="text-big__brown">Marketing</div>
+              <div class="h4__text-brown">
+                Your business with a variety of digital
+              </div>
+              <div class="common__text-brown">21 Oct, 2021</div>
+            </div>
+          </div>
+        </section>
+        <img
+          src="images/our-blog__line.svg"
+          alt="line"
+          class="our-blog__img-line"
+        />
+        <div class="our-blog__info">
+          <div class="our-blog__info-text">
+            <div class="h4__text-brown">Newsletter</div>
+            <div class="common__text-brown">
+              A digital agency is a business you hire to outsource
+            </div>
+          </div>
+          <div class="our-blog__info-notext">
+            <input
+              type="text"
+              placeholder="Your email"
+              class="our-blog__input"
+            />
+            <button type="button" class="btn__white">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Our blog -->
+    <!-- Contact -->
+    <div class="container">
+      <section class="contact">
+        <div class="contact__form">
+          <div class="h4__text-brown">Get In Touch</div>
+          <div class="contact__form-fields">
+            <input
+              type="text"
+              placeholder="Your email"
+              class="contact__form__input"
+            />
+            <select
+              class="contact__form__input contact__form__select"
+              aria-label="Select Subject"
+            >
+              <option value="" disabled selected>Subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="billing">Billing Question</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Message"
+              class="contact__form__input contact__form__message"
+            />
+          </div>
+          <button type="button" class="btn__orange contact__btn">
+            Submit now
+          </button>
+        </div>
+        <div class="contact__main">
+          <div class="h5__text-orange">Contact</div>
+          <div class="h2__text-white">Contact Me</div>
+          <div class="common__text-grey">
+            A digital agency is a business you hire to outsource your digital
+            marketing efforts, instead of handling in-house.
+          </div>
+          <div class="contact__info">
+            <div class="contact__info-type">
+              <div class="contact__info-img">
+                <img
+                  src="images/contact-logo__1.svg"
+                  alt="Compas"
+                  class="contact__info-logo"
+                />
+              </div>
+              <div class="text-big__white">2247 Lunetta Street, TX 76301</div>
+            </div>
+            <div class="contact__info-type">
+              <div class="contact__info-img">
+                <img
+                  src="images/contact-logo__2.svg"
+                  alt="Phone"
+                  class="contact__info-logo"
+                />
+              </div>
+              <div class="text-big__white">+1 (234) 567-89-00</div>
+            </div>
+            <div class="contact__info-type">
+              <div class="contact__info-img">
+                <img
+                  src="images/contact-logo__3.svg"
+                  alt="Letter"
+                  class="contact__info-logo"
+                />
+              </div>
+              <div class="text-big__white">info@agency.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /Contact -->
+    <!-- Gabriel pires -->
+    <div class="background__color-lightpink">
+      <div class="container">
+        <div class="gabriel-pires">
+          <div class="gabriel-pires__main">
+            <div class="h5__text-orange">Gabriel Pires</div>
+            <div class="gabriel-pires__main-text">
+              <div class="h2__text-brown">Help To Build Your Dream Project</div>
+              <div class="common__text-brown">
+                A digital agency is a business you hire to outsource your
+                digital marketing efforts, instead of handling in-house.
+              </div>
+            </div>
+            <button class="btn__orange">Contact Me</button>
+          </div>
+          <img
+            src="images\contact-img.svg"
+            alt="Laptop and Person"
+            class="gabriel-pires__img"
+          />
+        </div>
+      </div>
+
+      <!-- /Gabriel pires -->
+      <!-- Prefooter -->
+      <section class="prefooter">
+        <img
+          src="images\prefooter-img__1.svg"
+          alt="Light-pink stairs"
+          class="Prefooter__img"
+        />
+        <img
+          src="images\prefooter-img__2.svg"
+          alt="Geometry sculpture"
+          class="Prefooter__img"
+        />
+        <img
+          src="images\prefooter-img__3.svg"
+          alt="Oval windows"
+          class="Prefooter__img"
+        />
+        <img
+          src="images\prefooter-img__4.svg"
+          alt="Drops on the pink wall"
+          class="Prefooter__img"
+        />
+        <img
+          src="images\prefooter-img__5.svg"
+          alt="Ball on the beach"
+          class="Prefooter__img"
+        />
+        <img
+          src="images\prefooter-img__6.svg"
+          alt="Figure in the ice"
+          class="Prefooter__img"
+        />
+      </section>
+    </div>
+    <!-- /Prefooter -->
+    <!-- Footer -->
+    <div class="container">
+      <div class="footer__main">
+        <div class="h4__text-white">Personal</div>
+        <div class="footer__main-text">
+          <div class="h5__text-orange">Menu</div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__main-text">
+          <div class="h5__text-orange">Service</div>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Design</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">Development</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">Marketing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="footer__link">See More</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__socials">
+          <a href="https://facebook.com" class="social__link">
+            <img
+              src="images\footer-logo__facebook.svg"
+              alt="Facebook"
+              class="footer__social-facebook"
+            />
+          </a>
+          <a href="https://x.com" class="social__link">
+            <img
+              src="images\footer-logo__twitter.svg"
+              alt="Twitter"
+              class="images/footer-logo__twitter.svg"
+            />
+          </a>
+          <a href="https://instagram.com" class="social__link">
+            <img
+              src="images/footer-logo__instagram.svg"
+              alt="Instagram"
+              class="images/footer-logo__instagram.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <img src="images/footer__line.svg" alt="line" class="footer__line" />
+      <div class="footer__policy">
+        <div class="common__text-grey">
+          Copyright © 2022 Laaqiq. All Rights Reserved.
+        </div>
+        <div class="footer__text">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms of Use</a>
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- /Footer -->
   </body>
 </html>
