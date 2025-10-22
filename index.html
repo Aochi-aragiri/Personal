@@ -154,7 +154,7 @@
         <div class="portfolio__main">
           <h5 class="h5__text-orange">Portfolio</h5>
           <div class="portfolio__main-row">
-            <h2 class="h2__text-white">Latest Work</h2>
+            <h2 class="h2__text-white portfolio__main-text">Latest Work</h2>
             <button type="button" class="btn__darkblue">Explore more</button>
           </div>
         </div>
@@ -415,7 +415,9 @@
               </div>
             </section>
           </div>
-          <button type="button" class="btn__white">See All</button>
+          <button type="button" class="btn__white testimonials__btn">
+            See All
+          </button>
         </div>
       </div>
     </div>
@@ -435,7 +437,7 @@
         <div class="faq__accordion">
           <details open>
             <summary>A digital agency is a business</summary>
-            <p>
+            <p class="faq__text">
               Digital marketing efforts, instead of handling in-house. They can
               provide your business with a variety of digital solutions to
               promote your product or service online and help you hit your
@@ -444,7 +446,7 @@
           </details>
           <details>
             <summary>Hire to outsource your digital</summary>
-            <p>
+            <p class="faq__text">
               Outsource your digital marketing efforts, instead of handling
               in-house. They can provide your business with a variety of
               solutions.
@@ -452,14 +454,14 @@
           </details>
           <details>
             <summary>Marketing efforts</summary>
-            <p>
+            <p class="faq__text">
               Promote your product or service online through various digital
               strategies.
             </p>
           </details>
           <details>
             <summary>Can provide your business</summary>
-            <p>
+            <p class="faq__text">
               Help you reach your business goals and grow your online presence.
             </p>
           </details>
@@ -497,10 +499,17 @@
     <!-- Our blog -->
     <div class="background__color-lightpink">
       <div class="container">
+        <div class="our__blog-title">
+          <div class="our__blog-title-text">
+            <div class="h5__text-orange">Our Blog</div>
+            <div class="h2__text-brown our__blog-title-text-h2">
+              Latest Blog Articles
+            </div>
+          </div>
+          <button class="btn__white">Discover All</button>
+        </div>
         <section class="our-blog__main">
           <div class="our-blog__left">
-            <div class="h5__text-orange">Our Blog</div>
-            <div class="h2__text-brown">Latest Blog Articles</div>
             <img
               src="images/article-img__stories.svg"
               alt="Pumpkins"
@@ -513,36 +522,28 @@
             <div class="common__text-brown">5 Nov, 2021</div>
           </div>
           <div class="our-blog__right">
-            <button class="btn__white">Discover All</button>
-            <div class="our-blog__right-nobtn">
-              <img
-                src="images\article-img__design.svg"
-                alt="People do project"
-                class="our-blog__img"
-              />
-              <div class="text-big__brown">Design</div>
-              <div class="h4__text-brown">
-                Outsource your digital marketing efforts
-              </div>
-              <div class="common__text-brown">29 Oct, 2021</div>
-              <img
-                src="images\article-img__marketing.svg"
-                alt="People discuss"
-                class="our-blog__img"
-              />
-              <div class="text-big__brown">Marketing</div>
-              <div class="h4__text-brown">
-                Your business with a variety of digital
-              </div>
-              <div class="common__text-brown">21 Oct, 2021</div>
+            <img
+              src="images\article-img__design.svg"
+              alt="People do project"
+              class="our-blog__img"
+            />
+            <div class="text-big__brown">Design</div>
+            <div class="h4__text-brown our-blog__right-text">
+              Outsource your digital marketing efforts
             </div>
+            <div class="common__text-brown">29 Oct, 2021</div>
+            <img
+              src="images\article-img__marketing.svg"
+              alt="People discuss"
+              class="our-blog__img"
+            />
+            <div class="text-big__brown">Marketing</div>
+            <div class="h4__text-brown our-blog__right-text">
+              Your business with a variety of digital
+            </div>
+            <div class="common__text-brown">21 Oct, 2021</div>
           </div>
         </section>
-        <img
-          src="images/our-blog__line.svg"
-          alt="line"
-          class="our-blog__img-line"
-        />
         <div class="our-blog__info">
           <div class="our-blog__info-text">
             <div class="h4__text-brown">Newsletter</div>
@@ -556,7 +557,9 @@
               placeholder="Your email"
               class="our-blog__input"
             />
-            <button type="button" class="btn__white">Subscribe</button>
+            <button type="button" class="btn__white our-blog__btn">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
@@ -573,10 +576,7 @@
               placeholder="Your email"
               class="contact__form__input"
             />
-            <select
-              class="contact__form__input contact__form__select"
-              aria-label="Select Subject"
-            >
+            <select class="contact__form__select" aria-label="Select Subject">
               <option value="" disabled selected>Subject</option>
               <option value="general">General Inquiry</option>
               <option value="support">Technical Support</option>
@@ -664,32 +664,32 @@
         <img
           src="images\prefooter-img__1.svg"
           alt="Light-pink stairs"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
         <img
           src="images\prefooter-img__2.svg"
           alt="Geometry sculpture"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
         <img
           src="images\prefooter-img__3.svg"
           alt="Oval windows"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
         <img
           src="images\prefooter-img__4.svg"
           alt="Drops on the pink wall"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
         <img
           src="images\prefooter-img__5.svg"
           alt="Ball on the beach"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
         <img
           src="images\prefooter-img__6.svg"
           alt="Figure in the ice"
-          class="Prefooter__img"
+          class="prefooter__img"
         />
       </section>
     </div>
@@ -756,7 +756,6 @@
           </a>
         </div>
       </div>
-      <img src="images/footer__line.svg" alt="line" class="footer__line" />
       <div class="footer__policy">
         <div class="common__text-grey">
           Copyright © 2022 Laaqiq. All Rights Reserved.
