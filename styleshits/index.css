@@ -868,7 +868,6 @@ button {
 
 .testimonials__review {
   display: flex;
-  align-items: flex-start;
 }
 
 @media (max-width: 1080px) {
@@ -882,11 +881,11 @@ button {
 }
 
 .testimonials__comment {
-  max-width: 392px;
   display: flex;
   flex-direction: column;
   padding: 48px;
   border: 1px solid rgba(243, 209, 191, 1);
+  max-height: 432px;
 }
 
 .testimonials__comment:first-child {
@@ -900,6 +899,7 @@ button {
 
 .testimonials__comment-main {
   background-color: rgba(255, 255, 255, 1);
+  min-height: 464px;
 }
 
 .testimonials__comment:hover {
