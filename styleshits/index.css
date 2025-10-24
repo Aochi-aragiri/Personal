@@ -867,7 +867,8 @@ button {
 }
 
 .testimonials__review {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 1080px) {
@@ -883,9 +884,10 @@ button {
 .testimonials__comment {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 48px;
   border: 1px solid rgba(243, 209, 191, 1);
-  max-height: 432px;
+  height: 400px;
 }
 
 .testimonials__comment:first-child {
@@ -899,6 +901,7 @@ button {
 
 .testimonials__comment-main {
   background-color: rgba(255, 255, 255, 1);
+  height: 438px;
 }
 
 .testimonials__comment:hover {
@@ -913,6 +916,12 @@ button {
   .testimonials__comment:last-child {
     border-left: 1px solid rgba(243, 209, 191, 1);
     border-top: none;
+  }
+  .testimonials__comment {
+    height: auto;
+  }
+  .testimonials__comment-main {
+    height: auto;
   }
 }
 
