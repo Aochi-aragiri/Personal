@@ -922,15 +922,21 @@ button {
 
 .faq__accordion details {
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-bottom: none;
   overflow: hidden;
-  border-radius: 6px;
   max-width: 100%;
   width: 100%;
+  border-bottom: none;
+}
+
+.faq__accordion details:first-child {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .faq__accordion details:last-child {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .faq__accordion details[open] {
@@ -954,10 +960,10 @@ button {
 
 @media (max-width: 1080px) {
   .faq__accordion summary {
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding: 40px 28px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
   }
 }
 
@@ -966,16 +972,16 @@ button {
 }
 
 .faq__accordion summary::after {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 48px;
-  height: 48px;
-  content: "▲";
+  content: "";
+  width: 32px;
+  height: 32px;
   transition: transform 0.3s ease;
   background-color: #ff7e47;
   border-radius: 50%;
-  flex-shrink: 0;
+  margin-left: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg%20width='12'%20height='8'%20viewBox='0%200%2012%208'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M6%208L0%200H12L6%208Z'%20fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .faq__accordion[open] summary::after,
@@ -1022,17 +1028,6 @@ button {
 }
 
 @media (max-width: 640px) {
-  .faq__accordion summary {
-    font-size: 16px;
-    line-height: 24px;
-    padding: 16px;
-  }
-
-  .faq__accordion summary::after {
-    width: 28px;
-    height: 28px;
-  }
-
   .faq__text {
     font-size: 14px;
     line-height: 24px;
